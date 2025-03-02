@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  .navbar {
+    background-color: #0b2242;
+  }
+  .navbar-brand,
+  .nav-link,
+  .dropdown-item {
+    color: #ffffff !important;
+  }
+  .dropdown-menu {
+    background-color: #0b2242;
+  }
+  .dropdown-item:hover {
+    background-color: #008080;
+    color: #ffffff !important;
+  }
+  footer {
+    background-color: #0b2242;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .hero {
+    background: url('https://via.placeholder.com/1200x400?text=Commercial+Property') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .btn-accent {
+    background-color: #008080;
+    color: #ffffff;
+    border: none;
+  }
+  .btn-accent:hover {
+    background-color: #006666;
+  }
+  /* Adjust spacing for sections */
+  .content-section {
+    padding: 40px 0;
+  }
+  .testimonial {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
