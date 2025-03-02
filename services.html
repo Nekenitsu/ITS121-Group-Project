@@ -1,102 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptimaLease - Services</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OptimaLease - Services</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #0b2242">
+      <a class="navbar-brand text-white" href="mainpage.html">OptimaLease</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon" style="color: #ffffff">☰</span>
+      </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg" style="background-color: #0b2242;">
-    <a class="navbar-brand text-white" href="mainpage.html">OptimaLease</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="color:#ffffff;">☰</span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="services.html">Services</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="about.html">About Us</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="spaces.html">Spaces</a>
+          </li>
 
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="services.html">Services</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact Us</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="spaces.html">Spaces</a>
-        </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+              style="background-color: #0b2242"
+            >
+              <a class="dropdown-item text-white" href="hr.html"
+                >HR &amp; Customer Support</a
+              >
+              <a class="dropdown-item text-white" href="careers.html"
+                >Careers</a
+              >
+              <a class="dropdown-item text-white" href="investors.html"
+                >Investors</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="contact.html">Contact Us</a>
-        </li>
+    <main class="container my-5">
+      <h1>Our Services</h1>
+      <p>
+        OptimaLease offers a range of commercial leasing services to meet the
+        unique needs of your business:
+      </p>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            More
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #0b2242;">
-            <a class="dropdown-item text-white" href="hr.html">HR &amp; Customer Support</a>
-            <a class="dropdown-item text-white" href="careers.html">Careers</a>
-            <a class="dropdown-item text-white" href="investors.html">Investors</a>
-          </div>
-        </li>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Short-Term Leases</h3>
+          <p>
+            Perfect for startups and small businesses seeking flexibility
+            without long-term commitments.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Long-Term Leases</h3>
+          <p>
+            Ideal for established companies looking for stability and strategic
+            expansion.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3>Custom Build-Outs</h3>
+          <p>
+            We collaborate with you to design and build out spaces tailored to
+            your brand and operations.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>Additional Offerings</h2>
+      <ul>
+        <li>Property Management</li>
+        <li>Consultation Services</li>
+        <li>Workspace Design &amp; Furnishing</li>
       </ul>
-    </div>
-  </nav>
+    </main>
 
-
-
-  <main class="container my-5">
-    <h1>Our Services</h1>
-    <p>OptimaLease offers a range of commercial leasing services to meet the unique needs of your business:</p>
-
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Short-Term Leases</h3>
-        <p>
-          Perfect for startups and small businesses seeking flexibility without long-term commitments.
-        </p>
-      </div>
-      <div class="col-md-4">
-        <h3>Long-Term Leases</h3>
-        <p>
-          Ideal for established companies looking for stability and strategic expansion.
-        </p>
-      </div>
-      <div class="col-md-4">
-        <h3>Custom Build-Outs</h3>
-        <p>
-          We collaborate with you to design and build out spaces tailored to your brand and operations.
-        </p>
-      </div>
-    </div>
-
-    <hr>
-
-    <h2>Additional Offerings</h2>
-    <ul>
-      <li>Property Management</li>
-      <li>Consultation Services</li>
-      <li>Workspace Design &amp; Furnishing</li>
-    </ul>
-  </main>
-
-
-
-  <footer style="background-color: #0b2242; color: #ffffff; padding: 20px 0; text-align: center;">
-    <p>&copy; 2025 OptimaLease. All rights reserved.</p>
-  </footer>
-
-</body>
-
+    <footer
+      style="
+        background-color: #0b2242;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+      "
+    >
+      <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

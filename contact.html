@@ -1,102 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptimaLease - Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OptimaLease - Contact Us</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #0b2242">
+      <a class="navbar-brand text-white" href="mainpage.html">OptimaLease</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon" style="color: #ffffff">☰</span>
+      </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg" style="background-color: #0b2242;">
-    <a class="navbar-brand text-white" href="mainpage.html">OptimaLease</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="color:#ffffff;">☰</span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="services.html">Services</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="about.html">About Us</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="spaces.html">Spaces</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="services.html">Services</a>
-        </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="contact.html">Contact Us</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="spaces.html">Spaces</a>
-        </li>
-
-        <li class="nav-item active">
-          <a class="nav-link text-white" href="contact.html">Contact Us</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            More
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #0b2242;">
-            <a class="dropdown-item text-white" href="hr.html">HR &amp; Customer Support</a>
-            <a class="dropdown-item text-white" href="careers.html">Careers</a>
-            <a class="dropdown-item text-white" href="investors.html">Investors</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-
-  <main class="container my-5">
-    <h1>Contact Us</h1>
-    <p>Please fill out the form below to get in touch with us:</p>
-
-
-    <form>
-      <div class="form-group">
-        <label for="name">Full Name:</label>
-        <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownMenuLink"
+              style="background-color: #0b2242"
+            >
+              <a class="dropdown-item text-white" href="hr.html"
+                >HR &amp; Customer Support</a
+              >
+              <a class="dropdown-item text-white" href="careers.html"
+                >Careers</a
+              >
+              <a class="dropdown-item text-white" href="investors.html"
+                >Investors</a
+              >
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="form-group">
-        <label for="email">Email Address:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+    </nav>
+
+    <main class="container my-5">
+      <h1>Contact Us</h1>
+      <p>Please fill out the form below to get in touch with us:</p>
+
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your full name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email address"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message/Inquiry:</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="5"
+            placeholder="How can we help you?"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <hr />
+
+      <h2>Find Us Here</h2>
+      <p>Our headquarters is located at:</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.472136365485!2d121.04614177510564!3d14.57215198591087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c938014e049d%3A0xa692cf8906343611!2sVARRAlleyLimitedCo.!5e0!3m2!1sen!2sph!4v1740914799071!5m2!1sen!2sph"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
       </div>
-      <div class="form-group">
-        <label for="message">Message/Inquiry:</label>
-        <textarea class="form-control" id="message" rows="5" placeholder="How can we help you?"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </main>
 
-    <hr>
-
-
-    <h2>Find Us Here</h2>
-    <p>Our headquarters is located at:</p>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.472136365485!2d121.04614177510564!3d14.57215198591087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c938014e049d%3A0xa692cf8906343611!2sVARRAlleyLimitedCo.!5e0!3m2!1sen!2sph!4v1740914799071!5m2!1sen!2sph"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
-  </main>
-
-
-
-  <footer style="background-color: #0b2242; color: #ffffff; padding: 20px 0; text-align: center;">
-    <p>&copy; 2025 OptimaLease. All rights reserved.</p>
-  </footer>
-
-</body>
-
+    <footer
+      style="
+        background-color: #0b2242;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+      "
+    >
+      <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
