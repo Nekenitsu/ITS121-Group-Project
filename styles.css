@@ -1,59 +1,135 @@
 body {
+  background-color: #333333;
+  color: #ffffff;
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 80px;
 }
-.navbar {
-  background-color: #0b2242;
+
+/* Ensure links are styled appropriately */
+a {
+  color: #ff9900;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #ffffff;
+}
+
+/* Navbar Styling */
+.navbar,
+.custom-navbar {
+  background-color: #333333;
 }
 .navbar-brand,
-.nav-link,
-.dropdown-item {
+.navbar-nav .nav-link,
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+  color: #ff9900 !important;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .nav-link:focus {
   color: #ffffff !important;
 }
+
+/* Dropdown Menu Styling */
 .dropdown-menu {
-  background-color: #0b2242;
+  background-color: #333333;
+  border: none;
 }
-.dropdown-item:hover {
-  background-color: #008080;
-  color: #ffffff !important;
+.dropdown-item {
+  color: #ff9900;
 }
-footer {
-  background-color: #0b2242;
-  color: #ffffff;
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #ff9900;
+  color: #333333 !important;
+}
+
+/* Footer Styling */
+footer,
+.footer {
+  background-color: #333333;
+  color: #ff9900;
   padding: 20px 0;
   text-align: center;
   margin-top: 40px;
+  width: 100%;
 }
-.hero {
-  background: url("https://via.placeholder.com/1200x400?text=Commercial+Property")
-    center/cover no-repeat;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  text-align: center;
+
+/* Carousel (Jumbotron) Caption Styling */
+.carousel-caption h5,
+.carousel-caption p {
+  color: #ff9900;
 }
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
+
+/* Accent Button Styling */
 .btn-accent {
-  background-color: #008080;
-  color: #ffffff;
+  background-color: #ff9900;
+  color: #333333;
   border: none;
 }
 .btn-accent:hover {
-  background-color: #006666;
+  background-color: #666666;
+  color: #ffffff;
 }
-/* Adjust spacing for sections */
+
+/* Content Section Spacing */
 .content-section {
   padding: 40px 0;
 }
+
+/* Testimonial Box Styling */
 .testimonial {
-  background-color: #f8f9fa;
+  background-color: #666666;
+  color: #ffffff;
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 20px;
+}
+
+/* Special Class for White Background Sections */
+.white-bg {
+  background-color: #ffffff;
+  color: #ff9900;
+  padding: 20px;
+}
+
+/* New Navbar  */
+.custom-navbar {
+  border-bottom: 1px solid #ff9900;
+  padding: 0.5rem 0;
+  z-index: 1030;
+}
+.custom-navbar .logo-img {
+  max-height: 60px;
+}
+.custom-navbar .navbar-nav .nav-link {
+  font-weight: 600;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.custom-navbar .dropdown-menu {
+  background-color: #333333;
+  border: none;
+}
+.custom-navbar .dropdown-item {
+  color: #ff9900;
+}
+.custom-navbar .dropdown-item:hover,
+.custom-navbar .dropdown-item:focus {
+  background-color: #ff9900;
+  color: #333333 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FF9900' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,255), rgba(242,74,1,255));
 }

@@ -2,82 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Spaces - VARR Alley</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap 4 CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #0b2242">
-      <a class="navbar-brand text-white" href="mainpage.html">OptimaLease</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon" style="color: #ffffff">☰</span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="about.html">About Us</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-white" href="services.html">Services</a>
-          </li>
-
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="spaces.html">Spaces</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link text-white" href="contact.html">Contact Us</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              More
-            </a>
-            <div
-              class="dropdown-menu"
-              aria-labelledby="navbarDropdownMenuLink"
-              style="background-color: #0b2242"
-            >
-              <a class="dropdown-item text-white" href="hr.html"
-                >HR &amp; Customer Support</a
+    <!-- Updated Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <!-- Logo (change to logo pic if meron, remove if wala) -->
+        <a class="navbar-brand" href="mainpage.html">
+          <img src="logo.png" alt="OptimaLease Logo" class="logo-img" />
+        </a>
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="spaces.html">Spaces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <!-- Dropdown for additional pages -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-              <a class="dropdown-item text-white" href="careers.html"
-                >Careers</a
+                More
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdown"
               >
-              <a class="dropdown-item text-white" href="investors.html"
-                >Investors</a
-              >
-            </div>
-          </li>
-        </ul>
+                <a class="dropdown-item" href="hr.html"
+                  >HR &amp; Customer Support</a
+                >
+                <a class="dropdown-item" href="careers.html">Careers</a>
+                <a class="dropdown-item" href="investors.html">Investors</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="privacy.html"
+                  >Data Privacy Policy</a
+                >
+                <a class="dropdown-item" href="terms.html">Terms of Use</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
+    <!-- MAIN CONTENT -->
     <main class="container my-5">
       <h1>Available Spaces</h1>
       <p>Explore our range of commercial spaces available for lease.</p>
@@ -96,7 +103,7 @@
                 Spacious suite with open floor plan, ideal for startups or
                 creative teams.
               </p>
-              <a href="contact.html" class="btn btn-primary">Schedule a Tour</a>
+              <a href="contact.html" class="btn btn-accent">Schedule a Tour</a>
             </div>
           </div>
         </div>
@@ -113,22 +120,23 @@
                 High-end finishes, boardroom, and private offices for
                 established businesses.
               </p>
-              <a href="contact.html" class="btn btn-primary">Schedule a Tour</a>
+              <a href="contact.html" class="btn btn-accent">Schedule a Tour</a>
             </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer
-      style="
-        background-color: #0b2242;
-        color: #ffffff;
-        padding: 20px 0;
-        text-align: center;
-      "
-    >
-      <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+      </div>
     </footer>
+
+    <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
