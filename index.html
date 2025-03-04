@@ -1,272 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VARR Alley</title>
-    <!-- Bootstrap 4 CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Updated Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-      <div class="container">
-        <!-- Logo (change to logo pic if meron, remove if wala) -->
-        <a class="navbar-brand" href="mainpage.html">
-          <img src="logo.png" alt="OptimaLease Logo" class="logo-img" />
-        </a>
-        <!-- Toggler for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarContent"
-          aria-controls="navbarContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarContent"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spaces.html">Spaces</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <!-- Dropdown for additional pages -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="hr.html"
-                  >HR &amp; Customer Support</a
-                >
-                <a class="dropdown-item" href="careers.html">Careers</a>
-                <a class="dropdown-item" href="investors.html">Investors</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="privacy.html"
-                  >Data Privacy Policy</a
-                >
-                <a class="dropdown-item" href="terms.html">Terms of Use</a>
-              </div>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VARR Alley</title>
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Updated Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <!-- Logo  -->
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="VARR Alley Logo" class="logo-img" />
+      </a>
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ourcompany.html">Our Company</a>
+              <a class="dropdown-item" href="partners.html">Partners</a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spaces.html">Spaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customersupport.html">Customer Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF UPDATED NAVBAR -->
+
+  <!-- JUMBOTRON / CAROUSEL  -->
+  <div id="spaceCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#spaceCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#spaceCarousel" data-slide-to="1"></li>
+      <li data-target="#spaceCarousel" data-slide-to="2"></li>
+      <li data-target="#spaceCarousel" data-slide-to="3"></li>
+      <li data-target="#spaceCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+1" class="d-block w-100" alt="Slide 1" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Modern Office Tower</h5>
+          <p>
+            Prime location for businesses seeking a contemporary workspace.
+          </p>
         </div>
       </div>
-    </nav>
-    <!-- END OF UPDATED NAVBAR -->
-
-    <!-- JUMBOTRON / CAROUSEL  -->
-    <div id="spaceCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#spaceCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#spaceCarousel" data-slide-to="1"></li>
-        <li data-target="#spaceCarousel" data-slide-to="2"></li>
-        <li data-target="#spaceCarousel" data-slide-to="3"></li>
-        <li data-target="#spaceCarousel" data-slide-to="4"></li>
-      </ol>
-
-      <!-- Slides -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://via.placeholder.com/1200x400?text=Commercial+Space+1"
-            class="d-block w-100"
-            alt="Slide 1"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Modern Office Tower</h5>
-            <p>
-              Prime location for businesses seeking a contemporary workspace.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://via.placeholder.com/1200x400?text=Commercial+Space+2"
-            class="d-block w-100"
-            alt="Slide 2"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Creative Studio Spaces</h5>
-            <p>Ideal for startups and design agencies.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://via.placeholder.com/1200x400?text=Commercial+Space+3"
-            class="d-block w-100"
-            alt="Slide 3"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Spacious Conference Rooms</h5>
-            <p>Professional meeting areas for important client engagements.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://via.placeholder.com/1200x400?text=Commercial+Space+4"
-            class="d-block w-100"
-            alt="Slide 4"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Executive Offices</h5>
-            <p>
-              Top-tier suites with premium amenities and breathtaking views.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://via.placeholder.com/1200x400?text=Commercial+Space+5"
-            class="d-block w-100"
-            alt="Slide 5"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Collaboration Lounges</h5>
-            <p>Perfect for team building and informal meetings.</p>
-          </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+2" class="d-block w-100" alt="Slide 2" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Creative Studio Spaces</h5>
+          <p>Ideal for startups and design agencies.</p>
         </div>
       </div>
-
-      <!-- Carousel Controls -->
-      <a
-        class="carousel-control-prev"
-        href="#spaceCarousel"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#spaceCarousel"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+3" class="d-block w-100" alt="Slide 3" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Spacious Conference Rooms</h5>
+          <p>Professional meeting areas for important client engagements.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+4" class="d-block w-100" alt="Slide 4" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Executive Offices</h5>
+          <p>
+            Top-tier suites with premium amenities and breathtaking views.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+5" class="d-block w-100" alt="Slide 5" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Collaboration Lounges</h5>
+          <p>Perfect for team building and informal meetings.</p>
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <main>
-      <!-- Services/Highlights Section -->
-      <section class="content-section container">
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img
-              src="https://via.placeholder.com/350x200"
-              class="img-fluid mb-3"
-              alt="Property"
-            />
-            <h4>Flexible Leasing</h4>
-            <p>
-              We offer a range of leasing options tailored to your business
-              needs.
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img
-              src="https://via.placeholder.com/350x200"
-              class="img-fluid mb-3"
-              alt="Office"
-            />
-            <h4>Modern Spaces</h4>
-            <p>
-              High-quality office spaces and facilities for modern companies.
-            </p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img
-              src="https://via.placeholder.com/350x200"
-              class="img-fluid mb-3"
-              alt="Support"
-            />
-            <h4>24/7 Support</h4>
-            <p>Our dedicated support team is available around the clock.</p>
-          </div>
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#spaceCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#spaceCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Services/Highlights Section -->
+    <section class="content-section container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Property" />
+          <h4>Flexible Leasing</h4>
+          <p>
+            We offer a range of leasing options tailored to your business
+            needs.
+          </p>
         </div>
-      </section>
-
-      <!-- Testimonials Section -->
-      <section class="content-section" style="background-color: #000000">
-        <div class="container">
-          <h2 class="text-center mb-5">Testimonials</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="testimonial">
-                <p>
-                  <strong>Company A</strong>: “OptimaLease made it simple for us
-                  to find the perfect space for our startup. Highly
-                  recommended!”
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="testimonial">
-                <p>
-                  <strong>Company B</strong>: “The leasing process was smooth,
-                  and the support team is exceptional.”
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-4 text-center">
+          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Office" />
+          <h4>Modern Spaces</h4>
+          <p>
+            High-quality office spaces and facilities for modern companies.
+          </p>
         </div>
-      </section>
-
-      <!-- Call to Action Section -->
-      <section class="content-section container text-center" id="cta">
-        <h2>Ready to Grow Your Business with Us?</h2>
-        <p>
-          Contact us today to schedule a tour or to learn more about our leasing
-          options.
-        </p>
-        <a href="contact.html" class="btn btn-accent">Contact Us</a>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container text-center">
-        <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+        <div class="col-md-4 text-center">
+          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Support" />
+          <h4>24/7 Support</h4>
+          <p>Our dedicated support team is available around the clock.</p>
+        </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+    <!-- Testimonials Section -->
+    <section class="content-section" style="background-color: #000000">
+      <div class="container">
+        <h2 class="text-center mb-5">Testimonials</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="testimonial">
+              <p>
+                <strong>Company A</strong>: “OptimaLease made it simple for us
+                to find the perfect space for our startup. Highly
+                recommended!”
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonial">
+              <p>
+                <strong>Company B</strong>: “The leasing process was smooth,
+                and the support team is exceptional.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="content-section container text-center" id="cta">
+      <h2>Ready to Grow Your Business with Us?</h2>
+      <p>
+        Contact us today to schedule a tour or to learn more about our leasing
+        options.
+      </p>
+      <a href="contact.html" class="btn btn-accent">Contact Us</a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">           
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td><a class="nav-link" href="ourcompany.html">Our Company</a></td>
+            <td><a class="nav-link" href="partners.html">Partners</a></td>
+            <td><a class="nav-link" href="contact.html">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="services.html">Services</a></td>
+            <td><a class="nav-link" href="spaces.html">Spaces</a></td>
+            <td><a class="nav-link" href="careers.html">Careers</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="gallery.html">Gallery</a></td>
+            <td><a class="nav-link" href="customersupport.html">Customer Support</a></td>
+            <td><a class="nav-link" href="">New Page</a></td></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="privacy.html">Data Privacy Policy</a></td>
+            <td><a class="nav-link" href="terms.html">Terms of Use</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <div class="container text-center">
+      <p>&copy; 2025 VARR Alley. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>

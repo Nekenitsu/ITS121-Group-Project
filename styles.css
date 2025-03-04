@@ -1,7 +1,7 @@
 body {
   background-color: #333333;
   color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   padding-top: 80px;
@@ -131,5 +131,86 @@ footer,
 }
 
 #grad {
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,255), rgba(242,74,1,255));
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 255),
+    rgba(242, 74, 1, 255)
+  );
+}
+
+/* Position Cards (CAREERS PAGE DESIGN - JUSTIN)*/
+.position-card {
+  background-color: #444444; /* Darker background for cards */
+  padding: 20px;
+  border-radius: 15px; /* Rounded Corners */
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, #ff9900, #ff6600) 1; /* Border Image with accent color */
+  color: #ffffff; /* White text for readability */
+}
+
+.position-card[data-role="marketing"] {
+  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+}
+
+.position-card[data-role="finance"] {
+  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+}
+
+.position-card[data-role="support"] {
+  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+  background-color: #444444; /* Darker background for testimonials */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 15px; /* Rounded Corners */
+  border: 2px solid #ff9900; /* Accent border */
+}
+
+/* Apply Now Section */
+.apply-now {
+  background-color: #444444; /* Darker background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ff9900; /* Accent border */
+}
+
+/* Why Work With Us Section */
+.why-work-with-us {
+  background-color: #444444; /* Darker background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ff9900; /* Accent border */
+}
+
+/* Investment Opportunities Cards (PARTNERS DESIGN - JUSTIN) */
+.card {
+  border-radius: 15px; /* Rounded Corners */
+  border: 2px solid #ff9900; /* Accent Border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #ff9900; /* Accent Color for Titles */
+}
+
+.investor-inquiries a:hover {
+  color: #ffffff;
+}
+
+/* Partners List Section */
+.partners-list img {
+  border: 2px solid #ff9900; /* Accent Border */
+  border-radius: 15px; /* Rounded Corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partners-list p {
+  color: #ffffff; /* White text for readability */
+  font-size: 1.1rem;
+  margin-top: 20px;
 }

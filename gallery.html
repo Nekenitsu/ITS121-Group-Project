@@ -1,80 +1,169 @@
-<!DOCTYPE html>
+<!DOCTYPE html />
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery - VARR Alley</title>
-  </head>
-  <body>
-    <!-- Updated Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-      <div class="container">
-        <!-- Logo (change to logo pic if meron, remove if wala) -->
-        <a class="navbar-brand" href="mainpage.html">
-          <img src="logo.png" alt="OptimaLease Logo" class="logo-img" />
-        </a>
-        <!-- Toggler for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarContent"
-          aria-controls="navbarContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarContent"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spaces.html">Spaces</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <!-- Dropdown for additional pages -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="hr.html"
-                  >HR &amp; Customer Support</a
-                >
-                <a class="dropdown-item" href="careers.html">Careers</a>
-                <a class="dropdown-item" href="investors.html">Investors</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="privacy.html"
-                  >Data Privacy Policy</a
-                >
-                <a class="dropdown-item" href="terms.html">Terms of Use</a>
-              </div>
-            </li>
-          </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - VARR Alley</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="gallery-style.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Updated Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <!-- Logo  -->
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="VARR Alley Logo" class="logo-img" />
+      </a>
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ourcompany.html">Our Company</a>
+              <a class="dropdown-item" href="partners.html">Partners</a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spaces.html">Spaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customersupport.html">Customer Support</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </body>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container-fluid header_img">
+      <h1>OptimaLease Gallery</h1>
+      <h4>View the OptimaLease gallery</h4>
+    </div>
+    <div class="container">
+      <div class="row">
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+        <section class="col-sm-4 parent">
+          <img class="shadow-lg rounded img_scaling mx-auto d-block" src="testImage.jpg" alt="" />
+          <div class="card-text text_overlay">Insert Paragraph Here</div>
+        </section>
+      </div>
+    </div>
+    <div>
+      <!-- gallery of images; 4x3; border radius -->
+      <!-- hover to enlarge; click to show desc; animate to "pull up" image to show text in shadow -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">           
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td><a class="nav-link" href="ourcompany.html">Our Company</a></td>
+            <td><a class="nav-link" href="partners.html">Partners</a></td>
+            <td><a class="nav-link" href="contact.html">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="services.html">Services</a></td>
+            <td><a class="nav-link" href="spaces.html">Spaces</a></td>
+            <td><a class="nav-link" href="careers.html">Careers</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="gallery.html">Gallery</a></td>
+            <td><a class="nav-link" href="customersupport.html">Customer Support</a></td>
+            <td><a class="nav-link" href="">New Page</a></td></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="privacy.html">Data Privacy Policy</a></td>
+            <td><a class="nav-link" href="terms.html">Terms of Use</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <div class="container text-center">
+      <p>&copy; 2025 VARR Alley. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -1,130 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Partners - VARR Alley</title>
-    <!-- Bootstrap 4 CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Updated Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-      <div class="container">
-        <!-- Logo (change to logo pic if meron, remove if wala) -->
-        <a class="navbar-brand" href="mainpage.html">
-          <img src="logo.png" alt="OptimaLease Logo" class="logo-img" />
-        </a>
-        <!-- Toggler for mobile -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarContent"
-          aria-controls="navbarContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarContent"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spaces.html">Spaces</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-            <!-- Dropdown for additional pages -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="hr.html"
-                  >HR &amp; Customer Support</a
-                >
-                <a class="dropdown-item" href="careers.html">Careers</a>
-                <a class="dropdown-item" href="investors.html">Investors</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="privacy.html"
-                  >Data Privacy Policy</a
-                >
-                <a class="dropdown-item" href="terms.html">Terms of Use</a>
-              </div>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Partners - VARR Alley</title>
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Updated Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <!-- Logo  -->
+      <a class="navbar-brand" href="index.html">
+        <img src="logo.png" alt="VARR Alley Logo" class="logo-img" />
+      </a>
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ourcompany.html">Our Company</a>
+              <a class="dropdown-item" href="partners.html">Partners</a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spaces.html">Spaces</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="customersupport.html">Customer Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br />
+  <br />
+  <br />
+  <!-- MAIN CONTENT -->
+  <main class="container my-5">
+    <h1 class="text-left mb-4">Partner Relations</h1>
+    <p class="lead text-center">At Varr Alley, we are committed to delivering value to our shareholders through
+      strategic growth, operational excellence, and innovative solutions in commercial leasing.</p>
+
+    <br />
+    <br />
+
+    <!-- Investment Opportunities Section -->
+    <section class="investment-opportunities mb-5">
+      <h2 class="text-center mb-4">Investment Opportunities</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card bg-dark text-white mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Commercial Property Investments</h4>
+              <p class="card-text">Invest in our portfolio of premium commercial properties across key markets. Enjoy
+                stable returns and long-term growth potential.</p>
+              <a href="#contact" class="btn btn-accent">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card bg-dark text-white mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Development Projects</h4>
+              <p class="card-text">Partner with us in developing state-of-the-art commercial spaces designed for modern
+                businesses.</p>
+              <a href="#contact" class="btn btn-accent">Learn More</a>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <!-- MAIN CONTENT -->
-    <main class="container my-5">
-      <h1>Investor Relations</h1>
-      <p>
-        OptimaLease is committed to delivering value to our shareholders through
-        strategic growth and operational excellence.
-      </p>
+    </section>
 
-      <h2>Financial Highlights</h2>
-      <ul>
-        <li>Consistent revenue growth year over year</li>
-        <li>Strong portfolio of commercial properties</li>
-        <li>Robust pipeline of new developments</li>
-      </ul>
-
-      <h2>Investor Inquiries</h2>
-      <p>
-        For more information about investment opportunities, please contact our
-        Investor Relations team at <strong>investors@optimalease.com</strong>.
-      </p>
-
-      <h2>Annual Reports</h2>
-      <p>
-        Download our latest annual reports and financial statements from the
-        links below (placeholder links):
-      </p>
-      <ul>
-        <li><a href="#">2024 Annual Report (PDF)</a></li>
-        <li><a href="#">2023 Annual Report (PDF)</a></li>
-      </ul>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container text-center">
-        <p>&copy; 2025 OptimaLease. All rights reserved.</p>
+    <!-- Partners List Section -->
+    <section class="partners-list mb-5">
+      <h2 class="text-center mb-4">Our Partners</h2>
+      <div class="text-center">
+        <img src="partners-list.PNG" alt="Our Partners" class="img-fluid rounded">
+        <p class="mt-3">We are proud to collaborate with industry leaders who share our vision for innovation and
+          excellence.</p>
       </div>
-    </footer>
+    </section>
 
-    <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+    <!-- Investor Inquiries Section -->
+    <section class="investor-inquiries mb-5" id="contact">
+      <h2 class="text-center mb-4">Investor Inquiries</h2>
+      <p class="text-center">For more information about investment opportunities, please contact our Investor Relations
+        team:</p>
+      <div class="text-center">
+        <p><strong>Email:</strong> <a href="mailto:rpenilla.varralley@gmail.com">rpenilla.varralley@gmail.com</a></p>
+        <p><strong>Phone:</strong> +63 997 460 2845</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">           
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <td><a class="nav-link" href="ourcompany.html">Our Company</a></td>
+            <td><a class="nav-link" href="partners.html">Partners</a></td>
+            <td><a class="nav-link" href="contact.html">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="services.html">Services</a></td>
+            <td><a class="nav-link" href="spaces.html">Spaces</a></td>
+            <td><a class="nav-link" href="careers.html">Careers</a></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="gallery.html">Gallery</a></td>
+            <td><a class="nav-link" href="customersupport.html">Customer Support</a></td>
+            <td><a class="nav-link" href="">New Page</a></td></td>
+          </tr>
+          <tr>
+            <td><a class="nav-link" href="privacy.html">Data Privacy Policy</a></td>
+            <td><a class="nav-link" href="terms.html">Terms of Use</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <div class="container text-center">
+      <p>&copy; 2025 VARR Alley. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
 </html>
