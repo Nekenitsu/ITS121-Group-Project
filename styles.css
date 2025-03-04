@@ -189,6 +189,14 @@ footer,
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
 }
 
+#service-crew{
+  background-color: #444444; /* Darker background */
+  color: #FFFFFF; /* White text */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #FF9900; /* Accent border */
+}
+
 /* Investment Opportunities Cards (PARTNERS DESIGN - JUSTIN) */
 .card {
   border-radius: 15px; /* Rounded Corners */
