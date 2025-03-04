@@ -183,6 +183,12 @@ footer,
   border: 2px solid #FF9900; /* Accent border */
 }
 
+/* Attribute Selector for Service Crew Card */
+[data-role="support"] {
+  border: 2px solid #FF9900; /* Accent Border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+}
+
 /* Investment Opportunities Cards (PARTNERS DESIGN - JUSTIN) */
 .card {
   border-radius: 15px; /* Rounded Corners */
