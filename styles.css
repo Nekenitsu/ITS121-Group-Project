@@ -138,53 +138,49 @@ footer,
   );
 }
 
-/* Position Cards (CAREERS PAGE DESIGN - JUSTIN)*/
+/* Position Cards (CAREERS PAGE DESIGN - JUSTIN)*/ 
 .position-card {
-  background-color: #444444; /* Darker background for cards */
-  padding: 20px;
-  border-radius: 15px; /* Rounded Corners */
-  border: 5px solid transparent;
-  border-image: linear-gradient(to right, #ff9900, #ff6600) 1; /* Border Image with accent color */
-  color: #ffffff; /* White text for readability */
+  border: 2px solid #FF9900; /* Accent Border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
 }
 
-.position-card[data-role="marketing"] {
-  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+.position-card h4 {
+  color: #FF9900; /* Accent Color for Titles */
 }
 
-.position-card[data-role="finance"] {
-  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+.position-card ul {
+  padding-left: 20px; /* Indent list items */
 }
 
-.position-card[data-role="support"] {
-  border-image: linear-gradient(to right, #ff9900, #ff6600) 1;
+.position-card ul li {
+  margin-bottom: 10px; /* Space between list items */
 }
 
 /* Testimonial Cards */
 .testimonial-card {
   background-color: #444444; /* Darker background for testimonials */
-  color: #ffffff; /* White text */
+  color: #FFFFFF; /* White text */
   padding: 20px;
   border-radius: 15px; /* Rounded Corners */
-  border: 2px solid #ff9900; /* Accent border */
+  border: 2px solid #FF9900; /* Accent border */
 }
 
 /* Apply Now Section */
 .apply-now {
   background-color: #444444; /* Darker background */
-  color: #ffffff; /* White text */
+  color: #FFFFFF; /* White text */
   padding: 20px;
   border-radius: 15px;
-  border: 2px solid #ff9900; /* Accent border */
+  border: 2px solid #FF9900; /* Accent border */
 }
 
 /* Why Work With Us Section */
 .why-work-with-us {
   background-color: #444444; /* Darker background */
-  color: #ffffff; /* White text */
+  color: #FFFFFF; /* White text */
   padding: 20px;
   border-radius: 15px;
-  border: 2px solid #ff9900; /* Accent border */
+  border: 2px solid #FF9900; /* Accent border */
 }
 
 /* Investment Opportunities Cards (PARTNERS DESIGN - JUSTIN) */
