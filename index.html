@@ -5,228 +5,107 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>VARR Alley</title>
-  <!-- Bootstrap 4 CSS -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css" />
-  <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- FontAwesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- Updated Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
     <div class="container">
-      <!-- Logo  -->
       <a class="navbar-brand" href="index.html">
         <img src="logo.png" alt="VARR Alley Logo" class="logo-img" />
       </a>
-      <!-- Toggler for mobile -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Navbar links -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              About
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="ourcompany.html">Our Company</a>
-              <a class="dropdown-item" href="partners.html">Partners</a>
-            </div>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="spaces.html">Spaces</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="careers.html">Careers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="customersupport.html">Customer Support</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="ourcompany.html">Our Company</a></li>
+          <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="spaces.html">Spaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery1.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="customersupport.html">Customer Support</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- END OF UPDATED NAVBAR -->
 
-  <!-- JUMBOTRON / CAROUSEL  -->
-  <div id="spaceCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#spaceCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#spaceCarousel" data-slide-to="1"></li>
-      <li data-target="#spaceCarousel" data-slide-to="2"></li>
-      <li data-target="#spaceCarousel" data-slide-to="3"></li>
-      <li data-target="#spaceCarousel" data-slide-to="4"></li>
-    </ol>
-
-    <!-- Slides -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+1" class="d-block w-100" alt="Slide 1" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Modern Office Tower</h5>
-          <p>
-            Prime location for businesses seeking a contemporary workspace.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+2" class="d-block w-100" alt="Slide 2" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Creative Studio Spaces</h5>
-          <p>Ideal for startups and design agencies.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+3" class="d-block w-100" alt="Slide 3" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Spacious Conference Rooms</h5>
-          <p>Professional meeting areas for important client engagements.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+4" class="d-block w-100" alt="Slide 4" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Executive Offices</h5>
-          <p>
-            Top-tier suites with premium amenities and breathtaking views.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://via.placeholder.com/1200x400?text=Commercial+Space+5" class="d-block w-100" alt="Slide 5" />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Collaboration Lounges</h5>
-          <p>Perfect for team building and informal meetings.</p>
-        </div>
-      </div>
+  <!-- HERO SECTION -->
+  <section class="hero text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1 class="hero-title">WELCOME TO VARR ALLEY LIMITED CO.</h1>
+      <p class="hero-subtitle">“Your business partner in finding your food cart space.”</p>
     </div>
+  </section>
 
-    <!-- Carousel Controls -->
-    <a class="carousel-control-prev" href="#spaceCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#spaceCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <!-- MAIN CONTENT -->
   <main>
-    <!-- Services/Highlights Section -->
-    <section class="content-section container">
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Property" />
-          <h4>Flexible Leasing</h4>
-          <p>
-            We offer a range of leasing options tailored to your business
-            needs.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Office" />
-          <h4>Modern Spaces</h4>
-          <p>
-            High-quality office spaces and facilities for modern companies.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/350x200" class="img-fluid mb-3" alt="Support" />
-          <h4>24/7 Support</h4>
-          <p>Our dedicated support team is available around the clock.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="content-section" style="background-color: #000000">
+    <!-- ABOUT US SECTION -->
+    <section class="content-section text-center">
       <div class="container">
-        <h2 class="text-center mb-5">Testimonials</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="testimonial">
-              <p>
-                <strong>Company A</strong>: “OptimaLease made it simple for us
-                to find the perfect space for our startup. Highly
-                recommended!”
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="testimonial">
-              <p>
-                <strong>Company B</strong>: “The leasing process was smooth,
-                and the support team is exceptional.”
-              </p>
-            </div>
-          </div>
-        </div>
+        <i class="fas fa-building section-icon"></i>
+        <h2>About Us</h2>
+        <p>VARR Alley Limited Co. specializes in providing high-quality leasing spaces for food cart businesses.</p>
+        <a href="ourcompany.html" class="btn btn-accent">Learn More</a>
       </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="content-section container text-center" id="cta">
-      <h2>Ready to Grow Your Business with Us?</h2>
-      <p>
-        Contact us today to schedule a tour or to learn more about our leasing
-        options.
-      </p>
-      <a href="contact.html" class="btn btn-accent">Contact Us</a>
+    <!-- SERVICES SECTION -->
+    <section class="content-section text-center">
+      <div class="container">
+        <i class="fas fa-concierge-bell section-icon"></i>
+        <h2>Our Services</h2>
+        <p>We offer leasing services, business support, and space customization to ensure your food cart venture
+          thrives.</p>
+        <a href="services.html" class="btn btn-accent">View Services</a>
+      </div>
+    </section>
+
+    <!-- SPACES SECTION -->
+    <section class="content-section text-center">
+      <div class="container">
+        <i class="fas fa-map-marker-alt section-icon"></i>
+        <h2>Available Spaces</h2>
+        <p>Find strategically located food cart spaces in malls, transport hubs, and high-traffic areas.</p>
+        <a href="spaces.html" class="btn btn-accent">View Locations</a>
+      </div>
+    </section>
+
+    <!-- CAREERS SECTION -->
+    <section class="content-section text-center">
+      <div class="container">
+        <i class="fas fa-user-tie section-icon"></i>
+        <h2>Join Our Team</h2>
+        <p>We are always looking for talented individuals to join our team and help shape the future of commercial
+          leasing.</p>
+        <a href="careers.html" class="btn btn-accent">See Careers</a>
+      </div>
     </section>
   </main>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">           
-      <table class="table table-borderless">
-        <tbody>
-          <tr>
-            <td><a class="nav-link" href="ourcompany.html">Our Company</a></td>
-            <td><a class="nav-link" href="partners.html">Partners</a></td>
-            <td><a class="nav-link" href="contact.html">Contact Us</a></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="services.html">Services</a></td>
-            <td><a class="nav-link" href="spaces.html">Spaces</a></td>
-            <td><a class="nav-link" href="careers.html">Careers</a></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="gallery.html">Gallery</a></td>
-            <td><a class="nav-link" href="customersupport.html">Customer Support</a></td>
-            <td><a class="nav-link" href="">New Page</a></td></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="privacy.html">Data Privacy Policy</a></td>
-            <td><a class="nav-link" href="terms.html">Terms of Use</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br />
     <div class="container text-center">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="nav-link" href="privacy.html">Privacy Policy</a></li>
+        <li class="list-inline-item"><a class="nav-link" href="terms.html">Terms of Use</a></li>
+      </ul>
+      <hr class="footer-divider" />
       <p>&copy; 2025 VARR Alley. All rights reserved.</p>
     </div>
   </footer>
-
 </body>
 
 </html>

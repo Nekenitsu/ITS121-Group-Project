@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - VARR Alley</title>
   <!-- Bootstrap 4 CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="servicestyles.css" />
   <!-- Bootstrap 4 JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -52,10 +54,10 @@
             <a class="nav-link" href="careers.html">Careers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery1.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="customersupport.html">Customer Support</a>
+            <a class="nav-link" href="hr.html">HR</a>
           </li>
         </ul>
       </div>
@@ -63,79 +65,59 @@
   </nav>
 
   <!-- MAIN CONTENT -->
-  <main class="container my-5">
+  <div class="container my-5">
     <h1>Our Services</h1>
     <p>
-      OptimaLease offers a range of commercial leasing services to meet the
+      VARR Alley offers a range of commercial leasing services to meet the
       unique needs of your business:
     </p>
-
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Short-Term Leases</h3>
-        <p>
-          Perfect for startups and small businesses seeking flexibility
-          without long-term commitments.
-        </p>
+    <section class="services ">
+      <div class="service-card">
+        <h2>Prime Locations for SMEs</h2>
+        <p>We provide small-medium enterprises with viable locations tailored to the space requirements of franchisors,
+          franchisees, vendors, and merchants.</p>
+        <img src="1.jpeg" alt="Location Image">
       </div>
-      <div class="col-md-4">
-        <h3>Long-Term Leases</h3>
-        <p>
-          Ideal for established companies looking for stability and strategic
-          expansion.
-        </p>
+      <div class="service-card">
+        <h2>Support for Food Cart Businesses</h2>
+        <p>We help vendors grow their food cart businesses by ensuring the right location and seamless foot traffic.</p>
+        <img src="2.jpg" alt="Food Cart Image">
       </div>
-      <div class="col-md-4">
-        <h3>Custom Build-Outs</h3>
-        <p>
-          We collaborate with you to design and build out spaces tailored to
-          your brand and operations.
+      <div class="service-card">
+        <h2>Quick Serving Solutions</h2>
+        <p>We elevate quick serving times by maintaining the freshness of food and ensuring fast service for customers.
         </p>
+        <img src="3.jpg" alt="Fast Service Image">
       </div>
-    </div>
-
-    <hr />
-
-    <h2>Additional Offerings</h2>
-    <ul>
-      <li>Property Management</li>
-      <li>Consultation Services</li>
-      <li>Workspace Design &amp; Furnishing</li>
-    </ul>
+      <div class="service-card">
+        <h2>Customer-Centric Approach</h2>
+        <p>We serve our customers in the fastest way possible, ensuring satisfaction and convenience at every step.</p>
+        <img src="4.jpg" alt="Customer Service Image">
+      </div>
+    </section>
+  </div>
   </main>
 
-  <!-- FOOTER -->
+  <!-- UPDATED FOOTER -->
   <footer class="footer">
-    <div class="container">           
-      <table class="table table-borderless">
-        <tbody>
-          <tr>
-            <td><a class="nav-link" href="ourcompany.html">Our Company</a></td>
-            <td><a class="nav-link" href="partners.html">Partners</a></td>
-            <td><a class="nav-link" href="contact.html">Contact Us</a></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="services.html">Services</a></td>
-            <td><a class="nav-link" href="spaces.html">Spaces</a></td>
-            <td><a class="nav-link" href="careers.html">Careers</a></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="gallery.html">Gallery</a></td>
-            <td><a class="nav-link" href="customersupport.html">Customer Support</a></td>
-            <td><a class="nav-link" href="">New Page</a></td></td>
-          </tr>
-          <tr>
-            <td><a class="nav-link" href="privacy.html">Data Privacy Policy</a></td>
-            <td><a class="nav-link" href="terms.html">Terms of Use</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <br />
     <div class="container text-center">
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item"><a class="nav-link px-2" href="ourcompany.html">Our Company</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="partners.html">Partners</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="contact.html">Contact Us</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="services.html">Services</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="spaces.html">Spaces</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="careers.html">Careers</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="gallery1.html">Gallery</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="hr.html">Human Resources</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="privacy.html">Data Privacy Policy</a></li>
+        <li class="list-inline-item"><a class="nav-link px-2" href="terms.html">Terms of Use</a></li>
+      </ul>
+      <hr class="footer-divider" />
       <p>&copy; 2025 VARR Alley. All rights reserved.</p>
     </div>
   </footer>
+  <!-- END OF FOOTER -->
 </body>
 
 </html>
