@@ -1,0 +1,105 @@
+/* Styling for GALLERY HEADER */
+.header_img {
+    background-image: url(https://drive.google.com/thumbnail?id=1yxsfoajJlSUpdRV5Stsxld0GmzJHl77G&sz=w1000);
+    background-size: cover;
+    background-position-y: 20%;
+    padding: 10rem 5rem;
+}
+
+/* Styling for GALLERY LAYOUT */
+.img_scaling {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.parent {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for IMAGE-TEXT HOVER */
+.text_overlay {
+    width: 85%;
+    opacity: 0;
+    transition: opacity 0.7s ease-out;
+}
+
+.parent:hover .text_overlay {
+    opacity: 1;
+}
+
+/* Styling for IMAGE MODAL */
+.modal {
+    background-color: rgba(0, 0, 0, 0.686);
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 7rem;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #ffffff1b;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    height: 20em;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+.mySlides {
+    display: none;
+    height: inherit;
+    width: 100%;
+}
+
+.mySlides img {
+    display: block;
+    height: inherit;
+    width: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* Styling for MODAL NAV BUTTONS */
+
+.close {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: center;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 45%;
+  width: auto;
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 0.6s ease;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Styling for PAGINATION */
+.page-link, .gallerytext, #oplease {
+    color: #ff9900;
+    text-shadow: -.7rem .5rem .5rem #000000;
+}
+
+.page-link:hover, a:focus, .page-item:hover, .page-item.active .page-link {
+    color: #ffffff;
+    background-color: #ff9900;
+}
