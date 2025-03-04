@@ -1,0 +1,44 @@
+/* Styling for GALLERY HEADER */
+.header_img {
+    background-image: url(testImage.jpg);
+    padding: 10rem;
+}
+
+/* Styling for GALLERY LAYOUT */
+.img_scaling {
+    height: auto;
+    width: inherit;
+}
+
+.parent {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for IMAGE-TEXT HOVER */
+.text_overlay {
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    text-align: center;
+    color: #ca7900;
+    text-shadow: 2px 2px 6px #000000;
+    transform: translate(0, 0);
+    transition: .7s ease-out;
+}
+
+.parent:hover .text_overlay {
+    width: 85%;
+}
+
+/* Styling for PAGINATION */
+.page-link {
+    color: #ff9900;
+}
+
+.page-link:hover, a:focus, .page-item:hover, .page-item.active .page-link {
+    color: #ffffff;
+    background-color: #ff9900;
+}
